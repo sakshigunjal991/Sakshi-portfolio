@@ -1,7 +1,6 @@
 import React from 'react';
 import './Experience.css';
 import bg_img from '../../assets/bg_img.svg';
-import auro_icon from '../../assets/auro_icon.svg';
 import Experience_Data from '../../assets/experience_data.js';
 
 const Experience = () => {
@@ -15,7 +14,7 @@ const Experience = () => {
       <div className="experience-container">
         {Experience_Data.map((exp, index) => (
           <div key={index} className="experience-card">
-            <img src={exp.e_img} alt="Company Logo" className="experience-img" />
+            <img src={exp.e_img} alt="Company Logo" className="experience-img-top" />
             <div className="experience-content">
               <h2>{exp.company}</h2>
               <h3>{exp.role}</h3>
@@ -26,11 +25,6 @@ const Experience = () => {
           </div>
         ))}
       </div>
-
-      {/* <div className="experience-showmore">
-        <p>Show More</p>
-        <img src={auro_icon} alt="arrow" />
-      </div> */}
     </div>
   );
 };

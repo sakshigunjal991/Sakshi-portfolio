@@ -1,16 +1,15 @@
 import React from 'react'
 import './Footer.css'
-import samir_logo from '../../assets/samir_logo.png'
+import sakshi_logo from '../../assets/sakshi_logo.png'
 import user_icon from '../../assets/user_icon.svg'
-
 
 const Footer = () => {
   return (
     <div className='footer'>
         <div className="footer-top">
             <div className="footer-top-left">
-                <img src={samir_logo} alt="" />
-                <p>I am a frontend developer from Maharashtra, IND with 1 year of experience in baap company.</p>
+                <img src={sakshi_logo} alt="" />
+                <p>I am a frontend developer from Maharashtra, IND with 3 month of internship experience in Pravara Infotech Pvt. Ltd.</p>
             </div>
             <div className="footer-top-right">
                 <div className="footer-email-input">
@@ -22,7 +21,7 @@ const Footer = () => {
         </div>
         <hr />
         <div className="footer-bottom">
-            <p className="footer-bottom-left">© 2025 Samir Varpe. All rights reserved.</p>
+            <p className="footer-bottom-left">© 2025 Sakshi Gunjal. All rights reserved.</p>
             <div className="footer-bottom-right">
                 <p>Term of Services</p>
                 <p>Privacy Policy</p>

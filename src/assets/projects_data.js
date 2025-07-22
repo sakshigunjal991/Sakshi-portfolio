@@ -1,41 +1,24 @@
-import erp_img from '../assets/erp_img.png'
-import quick_campus from '../assets/quickcampus_img.png'
-import ems_img from '../assets/ems_img.webp'
-import tms_img from '../assets/tms_img.webp'
-import rs_app_img from '../assets/rs_app_img.webp'
-import momo_img from '../assets/momo_img.webp'
+import my_portfolio_img from '../assets/my_portfolio_img.png'
+import live_clock from '../assets/live_clock.webp'
+import quiz_app from '../assets/quiz_app.webp'
 
 const Projects_Data = [
   {
-    p_name: "ERP System Interface",
-    p_desc: "Developed a responsive ERP dashboard for managing employee tasks, attendance, and departments using React.js, Tailwind CSS, and REST APIs.",
-    p_img: erp_img,
+  p_name: "My Portfolio",
+  p_desc: "Designed and built a personal portfolio website using HTML, CSS, and JavaScript to showcase projects and skills.",
+  p_img: my_portfolio_img,
   },
   {
-    p_name: "Student Management Portal",
-    p_desc: "Developed a student management portal using React.js and Tailwind CSS with real-time data integration via REST APIs.",
-    p_img: quick_campus,
+  p_name: "Live Clock",
+  p_desc: "Built a real-time digital clock using HTML, CSS, and JavaScript. Later enhanced it with React.js and Tailwind CSS for a modern, responsive UI.",
+  p_img: live_clock,
   },
   {
-    p_name: "Employee Management System",
-    p_desc: "Built a React.js and Node.js-based web app to manage employee records with full CRUD functionality via REST APIs.",
-    p_img: ems_img,
+  p_name: "Quiz Solving",
+  p_desc: "Created a quiz web app using HTML, CSS, and JavaScript, allowing users to answer multiple-choice questions with scoring logic.",
+  p_img: quiz_app,
   },
-  {
-    p_name: "Task Management System",
-    p_desc: "Created a task tracking app using React.js and Express.js with features like task creation, updates, and status management.",
-    p_img: tms_img,
-  },
-  {
-    p_name: "Royal Shetakari – Farmer Support App",
-    p_desc: "Built a React Native app to help farmers check crop prices, nearby markets, and local shops with a simple and user-friendly interface.",
-    p_img: rs_app_img,
-  },
-  {
-    p_name: "The Momo Bar – Food Ordering App",
-    p_desc: "Built a React Native app for browsing and ordering different types of momos, with real-time order management using Firebase backend.",
-    p_img: momo_img,
-  }
+
 ];
 
 export default Projects_Data;

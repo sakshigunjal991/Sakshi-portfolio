@@ -1,26 +1,13 @@
-// import company_img from '../assets/company_img.png'
-
-// const Experience_Data = [
-//   {
-//     e_no: 1,
-//     e_name: "Frontend Developer at ABC Corp",
-//     e_img: company_img
-//   }
-// ];
-
-// export default Experience_Data;
-
-
-import company_img from '../assets/company_img.png'
+import company_img from '../assets/pravara_infotech.jpg'
 
 const Experience_Data = [
   {
-    company: "baap company",
-    role: "Frontend Developer",
-    duration: "Aug 2022 - Present",
-    description: "Worked on building responsive UI for ERP systems.",
-    technologies: "React.js, Tailwind CSS, REST APIs",
-    e_img: company_img // relative to public folder
+    company: "Pravara Infotech Pvt. Ltd.",
+    role: "Intern",
+    duration: "Jun 2025 - Present",
+    description: "Currently working as an intern, actively building a variety of mini projects to strengthen frontend development skills.",
+    technologies: "HTML5, CSS3, JavaScript",
+    e_img: company_img 
   }
 ];
 
